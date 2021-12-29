@@ -1,0 +1,19 @@
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#nasa {
+  color: blue;
+  font-size: 12px;
+}
+
+#robos {
+  color: grey;
+  font-size: 12px;
+}
+
+#sensores {
+  color: red;
+  font-size: 12px;
+}
