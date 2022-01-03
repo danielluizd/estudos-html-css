@@ -4,16 +4,24 @@ a {
 }
 
 #nasa {
-  color: blue;
+  background: blue;
+  color: green;
   font-size: 12px;
 }
 
 #robos {
+  background: blue;
   color: grey;
   font-size: 12px;
 }
 
 #sensores {
+  background: blue;
   color: red;
   font-size: 12px;
+}
+
+h1 {
+  background: black;
+  color: white;
 }
