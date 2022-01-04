@@ -4,24 +4,44 @@ a {
 }
 
 #nasa {
-  background: blue;
+  /* background: blue; */
   color: green;
   font-size: 12px;
 }
 
 #robos {
-  background: blue;
+  /* background: blue; */
   color: grey;
   font-size: 12px;
 }
 
 #sensores {
-  background: blue;
+  /* background: blue; */
   color: red;
   font-size: 12px;
 }
 
 h1 {
-  background: black;
   color: white;
+}
+
+#box1 {
+  background: #000;
+  width: 400px;
+  height: 50px;
+  padding-left: 100px;
+  margin: 10px;
+}
+
+#box2 {
+  width: fit-content;
+  height: fit-content;
+  padding: 3px;
+  border: 2px solid rgb(247, 0, 0);
+  background: rgb(80, 89, 218);
+  margin: 10px;
+}
+
+body {
+  margin: 0px;
 }
