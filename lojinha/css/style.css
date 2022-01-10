@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-top: 0px;
+}
+.comprar {
+  background: #a8f;
+  padding: 10px 20px;
+  color: #103;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.item {
+  background: #e7e5e5;
+  border: 1px solid #d4d4d4;
+  /* margin-bottom: 20px; elemento substituido por gap */
+  padding: 20px;
+  border-radius: 4px;
+  display: grid;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
