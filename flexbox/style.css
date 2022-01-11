@@ -6,6 +6,14 @@ html {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
+}
+
+.grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+  gap: 20px;
 }
 
 body {
@@ -17,5 +25,4 @@ h2 {
   border: 1px solid #d7d7d7;
   padding: 20px;
   margin: 0px;
-  flex: 1;
 }
