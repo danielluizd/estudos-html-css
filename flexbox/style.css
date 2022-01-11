@@ -6,9 +6,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
-  align-content: center;
-  height: 100vh;
 }
 
 body {
@@ -20,4 +17,5 @@ h2 {
   border: 1px solid #d7d7d7;
   padding: 20px;
   margin: 0px;
+  flex: 1;
 }
