@@ -1,0 +1,62 @@
+.head {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  color: black;
+  background: white;
+  font-size: 20px;
+  padding: 40px;
+}
+
+.product {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  align-items: center;
+}
+
+.p1,
+.p2,
+.button {
+  /* grid-column: 1/2; */
+}
+
+.p1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.p2 {
+  font-size: 25px;
+}
+
+.bike {
+  max-width: 1000px;
+  /* grid-column: 2/3; */
+}
+
+html {
+  font-family: Arial;
+}
+
+body {
+  background: #f7f7f7;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  margin: 0px;
+}
