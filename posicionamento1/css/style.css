@@ -1,74 +1,47 @@
-/* Positions */
-.head {
-  display: flex;
-  justify-content: center;
-  margin: 70px;
-  height: 40px;
-}
-
-.nav {
-  display: flex;
-  justify-content: center;
-}
-
 .menu {
-  color: black;
-  background: white;
-  font-size: 20px;
-  padding: 40px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.product {
+.menu a {
+  background: #ffffff;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
-  position: relative;
-  grid-column-gap: 80px;
-}
-
-.bike {
   max-width: 1000px;
-  grid-column: 2/3;
-  grid-row: 1/4;
 }
 
-.p1 {
-  position: absolute;
-  font-size: 50px;
-  font-weight: bold;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  /* align-self: center; */
-  top: 280px;
-  left: 586px;
-}
-
-.p2 {
-  position: absolute;
-  font-size: 30px;
-  grid-column: 1/2;
-  grid-row: 2/3;
-  bottom: 20px;
-  left: 400px;
+.intro {
+  background: #ffffff;
+  padding: 40px;
   text-align: right;
+  position: relative;
 }
 
-.button {
+.detail {
+  width: 60px;
+  height: 4px;
+  background: #ee2211;
+  display: inline-block;
   position: absolute;
-  font-size: 25px;
-  grid-column: 1/2;
-  grid-row: 3/4;
-  bottom: 100px;
-  left: 930px;
+  top: 30px;
+  right: -30px;
 }
-
-/* Styles */
 
 .button {
   border-radius: 4px;
   background: #ee2211;
   color: white;
-  padding: 20px 40px;
+  padding: 15px 30px;
+  text-transform: uppercase;
 }
 
 .bike {
@@ -76,20 +49,33 @@
 }
 
 /* General */
-html {
-  font-family: Arial;
-}
-
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background: #f7f7f7;
   margin: 0px;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 a {
   text-decoration: none;
 }
 
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+
 p {
   font-size: 20px;
-  margin: 0px;
+  line-height: 1.3;
 }
