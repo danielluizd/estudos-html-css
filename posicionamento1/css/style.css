@@ -56,6 +56,38 @@
   background: rgb(247, 209, 209);
 }
 
+.subtitle {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.benefits {
+  background: #ffffff;
+  padding: 40px;
+}
+
+.benefits-items {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.benefits-items p {
+  grid-column: 2;
+}
+
+.footer {
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
 /* General */
 body {
   font-family: Arial, Helvetica, sans-serif;
