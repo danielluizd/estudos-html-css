@@ -20,10 +20,14 @@
 }
 
 .intro {
+  display: grid;
   background: #ffffff;
   padding: 40px;
   text-align: right;
   position: relative;
+  align-content: center;
+  gap: 15px;
+  justify-items: end;
 }
 
 .detail {
