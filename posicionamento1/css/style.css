@@ -97,6 +97,7 @@ body {
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
+  scroll-behavior: smooth;
 }
 
 img {
